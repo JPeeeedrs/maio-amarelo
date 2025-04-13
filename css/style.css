@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #acacab;
+    text-align: center;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+#introducao {
+    padding-top: 2rem;
+}
+
+#maio {
+    color: #F7AF03;
+}
+
+#intro {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    background-color: #000;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    color: #fff;
+    text-align: justify;
+    font-size: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+    border: #F7AF03 2px solid;
+}
+
+
+.video-container {
+    position: relative;
+    margin: auto;
+    width: 85%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background-color: #00163F;
+    border-radius: 2rem;
+}
+
+.video_posicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section#cards img {
+    border-radius: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    min-height: 250px;
+    flex: 1;
+}
+
+.card {
+    background-color: #00163F;
+    color: #fff;
+    padding: 0.625rem;
+    margin: auto;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+}
+
+h3#title {
+    font-size: 0.9375rem;
+    color: #F7AF03;
+}
+
+
+.slider{
+    background-color: #F7AF03;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    border: #F7AF03 solid 0.3125rem;
+    border-radius: 0.625rem;
+    max-width: 100%;
+}
+
+
+.slider img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+.carrossel{
+    background-color: #F7AF03;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 75rem;
+    position: relative;
+    overflow: hidden;
+    border: #F7AF03 solid 0.3125rem;
+    border-radius: 0.625rem;
+    max-width: 90%;
+}
+
+.carrossel figure{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.carrossel img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 80vh;
+}
+
+section#tirinha img {
+    height: auto;
+    width: 43.75rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+
+#tirinha figcaption {
+    margin-left: 1rem;
+    position: relative;
+    text-align: left;
+    color: #F7AF03;
+    font-size: 1rem;
+    padding-bottom: 0;
+}
+
+#tirinha a {
+    text-decoration: none;
+    color: #F7AF03;
+}
+
+#tirinha a:hover {
+    color: #fff;
+}
+
+#ultrapassagem {
+    text-align: center;
+    width: 46.875rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+#ultrapassagem h3, h6 {
+    color: #F7AF03;
+}
+
+#tirinha figure {
+    margin: 1.25rem auto;
+    background-color: #00163F;
+    border-radius: 1.25rem;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+    width: 46.875rem;
+}

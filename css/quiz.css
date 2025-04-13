@@ -1,0 +1,103 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 1.25rem auto;
+    overflow: hidden;
+    border: 0.125rem solid #F7AF03;
+    border-radius: 1.25rem;
+    background-color: #000;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+    padding: 3.125rem 1.25rem;
+}
+
+.carousel h2 {
+    color: #F7AF03;
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 3.125rem;
+    text-align: center;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: none;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carousel .options button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7AF03;
+    color: #00163F;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 0.625rem 1.25rem;
+    margin: 0.625rem auto;
+    cursor: pointer;
+    font-size: 1.25rem;
+    width: 100%;
+    max-width: 31.25rem;
+    
+}
+
+.carousel .options button:hover {
+    background-color: #00163F;
+    color: #F7AF03;
+    transition: all 0.3s ease;
+}
+
+#feedback {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #00163F;
+    color: #F7AF03;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.625rem;
+    margin: 0.625rem auto;
+    width: 100%;
+    max-width: 31.25rem;
+}
+
+#restartBtn {
+    margin: 1.25rem auto;
+    display: block;
+    width: 100%;
+    max-width: 31.25rem;
+}
+
+
+
+@media (max-width: 1366px) {
+    .carousel {
+        width: 100%;
+        padding: 1.25rem 3rem;
+        max-width: 50rem;
+        margin: 0.9375rem auto;
+    }
+
+    .carousel .options button {
+        width: 100%;
+        max-width: 40rem;
+        margin: 0.625rem auto;
+    }
+}
