@@ -205,3 +205,11 @@ section#tirinha img {
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
     width: 46.875rem;
 }
+
+@media screen and (max-width: 768px) {
+    .slider{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
