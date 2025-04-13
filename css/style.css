@@ -16,17 +16,22 @@ main {
     flex: 1;
 }
 
-nav a {
-    text-decoration: none;
+.nav-brand, .nav-link, .title {
     color: #acacab;
-    text-align: center;
-    margin: auto;
-    font-size: 1.25rem;
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin: 0 5rem;
 }
 
-nav a:hover {
+.title {
+    display: flex;
+    margin: auto;
+}
+
+.nav-link:hover {
     color: #fff;
 }
+
 
 #introducao {
     padding-top: 2rem;
@@ -207,9 +212,17 @@ section#tirinha img {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
     .slider{
         height: 300px;
         width: 300px;
     }
+    
+}
+
+@media screen and (max-width: 420px) {
     
 }

@@ -10,12 +10,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar" style="background-color: #00163F;">
-            <img src="img/sest.png" alt="Logo" width="162" height="97" class="d-inline-block align-text-top">
-            <h1 class="fw-bold" style="padding-left: 70px; color: #acacab;">Maio Amarelo</h1>
-            <a href="index.html">Início</a>
-            <a href="campanha.html">Campanha</a>
-            <a href="quiz.html">Quiz</a>
+        <!-- menu de navegação -->
+        <nav class="navbar navbar-expand-md" style="background-color: #00163F;">
+            <div class="container">
+                <!-- Logo e Titulo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/sest.png" alt="Logo" width="162" height="97" class="d-inline-block align-text-top" style="margin: 2rem;">
+                    <h1 class="fw-bold title" style="text-align: center;">Maio Amarelo</h1>
+                </a>
+                <!-- hamburguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- itens do menu colapsavel -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" style="text-align: center;"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item" style="text-align: center;"><a class="nav-link" href="campanha.html">Campanha</a></li>
+                        <li class="nav-item" style="text-align: center;"><a class="nav-link" href="quiz.html">Quiz</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     
@@ -132,7 +147,7 @@
     </main>
     
     <footer class="text-center py-4 mt-5" style="background-color: #00163F; color: white;">
-        <p>&copy; 2025 Maio Amarelo. Todos os direitos reservados.</p>
+        <p>SEST SENAT - Turma 565946</p>
     </footer>
 
     <script src="js/answerChecker.js"></script>
