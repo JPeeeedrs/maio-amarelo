@@ -161,7 +161,7 @@ h3#title {
 
 section#tirinha img {
     height: auto;
-    width: 43rem;
+    width: 40rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -190,7 +190,7 @@ section#tirinha img {
 
 #ultrapassagem {
     text-align: center;
-    width: 45rem;
+    width: 40rem;
     padding: 2.5rem;
     border-radius: 1rem;
     min-width: 100%;
@@ -204,9 +204,9 @@ section#tirinha img {
     margin: 1.25rem auto;
     background-color: #00163F;
     border-radius: 1.25rem;
-    padding: 1.25rem 1.25rem 0 1.25rem;
+   /* padding: 1.25rem 1.25rem 0 1.25rem;*/
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
-    width: 45rem;
+    width: 40rem;
     min-width: 100%;
 }
 
