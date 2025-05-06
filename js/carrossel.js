@@ -33,6 +33,6 @@
 	}
 
 	document.addEventListener("DOMContentLoaded", function () {
-		setInterval(carrossel, 5000);
+		setInterval(carrossel, 10000);
 	});
 })();
